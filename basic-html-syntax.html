@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html><!--wraps all content on the page; root element-->
+<head><!--container for everything you want to include on HTML page-->
+    <meta charset="utf-8" /><!--meta elementr; charset attribute-->
+    <!--specifies character encoding as UTF-8, can help handle textual content-->
+    <title>My test page</title>
+    <!--title element describes title in tab, and when bookmarked-->
+  </head>
+<body>
+    <!--body contains all content displayed on page-->
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+<!-- ELEMENT <p>My first paragraph.</p> ELEMENT -->
+<!-- OPENING TAG <p> </p> CLOSING TAG -->
+<!-- CONTENT My first paragraph CONTENT -->
+
+<em>This is my text.</em>
+
+<p class="editor-note">My cat is <strong>very</strong> grumpy.</p>
+<!-- <p ATTRIBUTE class="editor-note" ATTRIBUTE>My cat is NESTED ELEMENT <strong>very</strong> NESTED ELEMENT 
+    grumpy.</p> -->
+
+<img
+    src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
+    alt="Firefox icon" />
+  
+<!-- VOID ELEMENTS ARE SINGLE TAG <img
+  src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
+  alt="Firefox icon" /> 
+-->
+
+<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2Fb%2Fb9%2FSolana_logo.png%2F252px-Solana_logo.png&f=1&nofb=1&ipt=075064c04189f3366e6ea0c2d325485c3dd03dfd4fd96ab11edc3428c8a18054&ipo=images" 
+alt="=Solana icon" width="150" height="150" />
+
+<img src="https://static.wikia.nocookie.net/a-perfect-circle/images/3/3c/Puscifer_logo.png/revision/latest?cb=20140213192545" 
+alt="=Puscifer logo" width="150" height="100" />
+
+<!-- using the disabled boolean attribute prevents the end user from entering text into the input box -->
+<input type="text" disabled />
+
+<!-- text input is allowed, as it doesn't contain the disabled boolean attribute -->
+<input type="text" />
+
+<p>The element in the code snippet below, "&lt;a&gt;", is called an anchor. Anchors enclose text and turn them into links. 
+    The href attribute specifies the web address the link points to. 
+    You can write this basic version below with only the href attribute, like this:</p>
+
+<a href=https://www.mozilla.org/>favorite website</a>
+
+<a href="https://www.example.com" title="Isn't this fun?">
+    A link to my example.
+</a>
+
+<!-- using character references, instead of quotes-->
+<a href="https://www.example.com" title="An &quot;interesting&quot; reference">A link to my example.</a>
+
+<p id="noWhitespace">Dogs are silly.</p>
+
+<p id="whitespace">Dogs
+    are
+        silly.</p>
+
+<!--No matter how much whitespace you use inside HTML element content 
+(which can include one or more space characters, but also line breaks), 
+the HTML parser reduces each sequence of whitespace to a single space when 
+rendering the code. So why use so much whitespace? The answer is readability.-->
+<!-- literal character & character reference equivalent
+< 	&lt;
+> 	&gt;
+" 	&quot;
+' 	&apos;
+& 	&amp;
+-->
+<!--EXAMPLE-->
+<p>In HTML, you define a paragraph using the <p> element.</p>
+
+<p>In HTML, you define a paragraph using the &lt;p&gt; element.</p>
+<!--END EXAMPLE-->
+</body>
+</html>
